@@ -18,5 +18,5 @@ func main() {
 	//routes
 	routes.UserRoute(router) //add this
 
-	log.Fatal(http.ListenAndServe(":6000", router))
+	log.Fatal(http.ListenAndServe(":8080", router))
 }
